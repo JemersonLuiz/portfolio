@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#090b0a"><meta name="description" content="Organizando reúne seus lançamentos, planos financeiros e o mercado em um só painel.">
+<script src="theme.js"></script>
+<title>Organizando · Visão geral</title><link rel="icon" href="marca.svg"><link rel="stylesheet" href="style.css"><link rel="stylesheet" href="theme.css">
+<script src="finance.js" defer></script><script src="icons.js" defer></script><script src="market.js" defer></script><script src="market-snapshot.js" defer></script><script src="app.js" defer></script><script src="forms.js" defer></script>
+</head>
+<body>
+<a href="#main" class="skip">Ir para o conteúdo</a>
+<header class="mast"><div class="mast-inner">
+<a href="#inicio" class="brand" aria-label="Organizando, início"><img src="marca.svg" width="32" height="32" alt="">organizando<span>.</span></a>
+<nav aria-label="Navegação principal" id="nav"></nav>
+<div class="header-actions">
+<button id="night-mode" class="theme-toggle" type="button" role="switch" aria-label="Modo noturno" aria-checked="true" title="Modo noturno"><i data-icon="moon"></i><span class="theme-label">Modo noturno</span><span class="switch-track" aria-hidden="true"></span></button>
+<button class="workspace" data-act="workspace"><i data-icon="layers"></i><span id="mode-label">Demonstração</span><i data-icon="chevron"></i></button>
+</div>
+</div></header>
+<main id="main" tabindex="-1"></main>
+<footer><a href="#inicio" class="footbrand">organizando.</a><span>Finanças pessoais <b>/</b> BRL</span></footer>
+<dialog id="dialog" aria-labelledby="dialog-title"><div id="dialog-body"></div></dialog>
+<div class="toast" id="toast" aria-live="polite"></div>
+</body></html>
